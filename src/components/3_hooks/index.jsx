@@ -39,7 +39,7 @@ import ReactDOM from 'react-dom'
 function Demo() {
   const [count, setCount] = useState(0)
   const [name, setName] = useState('jack')
-  const myRef = React.useRef()
+  const myRef = useRef()
   useEffect(() => {
     const timer = setInterval(() => {
       setCount((count) => count + 1)

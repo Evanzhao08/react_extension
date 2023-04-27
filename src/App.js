@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Demo from './components/3_hooks'
+import Demo from './components/5_Content'
 
 export default class App extends Component {
   render() {
